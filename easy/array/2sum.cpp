@@ -20,6 +20,8 @@ int main() {
     vector<int> nums = {2, 7, 11, 15}; // Example input
     int target = 9;
 
+    //you cant take vector input by only cin, you have to run for loop take input size first
+
     vector<int> result = solution(nums, target); // Call the function
 
     if (!result.empty()) {
